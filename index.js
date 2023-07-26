@@ -21,7 +21,7 @@ function constructParagraph() {
 	return para;
 };
 
-module.exports = function generateText(numParas) {
+function generateText(numParas) {
 	numParas > 20 && (numParas = 20);
 	numParas < 1 && (numParas = 1);
 	let text = '';
@@ -31,3 +31,5 @@ module.exports = function generateText(numParas) {
 	};
 	return text;
 };
+
+export default generateText;

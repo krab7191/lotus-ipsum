@@ -1,11 +1,10 @@
 {
   "name": "lotus-ipsum",
-  "version": "0.1.0",
+  "type": "module",
+  "version": "0.2.0",
   "description": "A Magic the Gathering themed Lorem Ipsum generator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krab7191/lotus-ipsum.git"
